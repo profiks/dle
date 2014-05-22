@@ -1,0 +1,25 @@
+<li>
+<figure>
+<img src="http://dle/uploads/boxsmall.jpg" width="100%" height="100%" align="left" alt="Добро пожаловать" />
+<p><a href="http://dle/1-post1.html" title="Добро пожаловать">Добро</a> <br />
+by: <a onclick="ShowProfile('admin', 'http://dle/user/admin/', '1'); return false;" href="http://dle/user/admin/">admin</a></p>
+</figure>
+</li><li>
+<figure>
+<img src="{THEME}/dleimages/no_image.jpg" width="100%" height="100%" align="left" alt="Приобретение и оплата скрипта" />
+<p><a href="http://dle/2-post2.html" title="Приобретение и оплата скрипта">Приобретение и</a> <br />
+by: <a onclick="ShowProfile('admin', 'http://dle/user/admin/', '1'); return false;" href="http://dle/user/admin/">admin</a></p>
+</figure>
+</li><li>
+<figure>
+<img src="http://dle/uploads/dlelogo.gif" width="100%" height="100%" align="left" alt="Шаблоны для DataLife Engine" />
+<p><a href="http://dle/3-post3.html" title="Шаблоны для DataLife Engine">Шаблоны для</a> <br />
+by: <a onclick="ShowProfile('admin', 'http://dle/user/admin/', '1'); return false;" href="http://dle/user/admin/">admin</a></p>
+</figure>
+</li><li>
+<figure>
+<img src="{THEME}/dleimages/no_image.jpg" width="100%" height="100%" align="left" alt="Осуществление технической поддержки скрипта" />
+<p><a href="http://dle/4-post4.html" title="Осуществление технической поддержки скрипта">Осуществление</a> <br />
+by: <a onclick="ShowProfile('admin', 'http://dle/user/admin/', '1'); return false;" href="http://dle/user/admin/">admin</a></p>
+</figure>
+</li>

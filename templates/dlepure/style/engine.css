@@ -1,0 +1,1252 @@
+.selectmass input {
+    float: right;
+    margin-left: 6px;
+}
+
+.mass_comments_action {
+    text-align: right;
+}
+/*---Найденные похожие новости при добавлении новостей на сайте---*/
+.findrelated {
+	width:99%;
+	background: #ffc;border:1px solid #9E9E9E;
+	padding: 5px;margin-top: 7px;
+	margin-right: 10px;
+}
+/*---Информационное окно загрузки AJAX---*/
+#loading-layer {
+    display: none;
+    font-size: 11px;
+    background: rgba(0,0,0,0.8);
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "PT Sans";
+}
+
+/*---Цитата и скрытый текст---*/
+.scriptcode, .title_quote,.quote, .title_spoiler, .text_spoiler {
+    padding: 5px;
+    background: #f9fafa;
+    border: 1px solid #dce7e7;overflow: hidden;
+}
+
+.title_quote, .title_spoiler {
+    background: #f9fafa;
+}
+
+.title_quote {
+    border-bottom: 0;
+    font-weight: bold;
+}
+
+.scriptcode {
+    color: #004e8d;
+    text-align: left;
+    font-family: "Courier New";
+}
+
+.title_spoiler {
+    font-weight: bold;
+}
+
+.text_spoiler {
+    border-top: 0;
+    text-align: justify;
+}
+
+.hide {
+    background-color: #e8f3fa;
+    padding: 5px;
+    color: #3a78a5;
+    margin: 0 0 1em;
+}
+
+.hide a {
+    text-decoration: underline;
+}
+
+ .hide a:hover {
+    text-decoration: none ;
+}
+
+.inhide {
+    border: 1px solid #d1e3ef;
+    padding: 5px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+/* ==================== Календарь */
+
+.calendar { width: 100%; }
+.calendar td, .calendar th { padding: 1px 0; border-bottom: 1px solid #e3e7e9; vertical-align: middle; text-align: center; }
+.calendar th.monthselect { padding-bottom: 5px; font-size: 1.1em; }
+.weekday-active-v, .day-active-v, .weekday-active, .day-active { font-weight: bold; }
+.weekday { color: #de3123; }
+
+.day-current { background-color: #91b513; color: #fff; }
+.day-current a { color: #fff !important; }
+
+/*---Лучшие пользователи---*/
+.userstop td, .pm td.pm_list, .pm td.pm_head {
+    border: 1px solid #d8d8d8;
+    padding: 2px;
+    background-color: #fff;
+}
+
+.userstop thead td, .pm td.pm_head {
+    font-size: 0.9em;
+    background: #fff url("../images/bbcodes.png") repeat-x 0 100%;
+    height: 22px;
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+    color: #4e4e4e;
+}
+
+/*---Рейтинг---*/
+.rating {
+    width: 85px;
+    height: 17px;
+    font-size: 0.9em;
+}
+
+.unit-rating {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 85px;
+    height: 17px;
+    position: relative;
+    background: url("../dleimages/rating.png") repeat-x;
+}
+
+.unit-rating li {
+    text-indent: -90000px;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.unit-rating li a {
+    display: block;
+    width: 17px;
+    height: 17px;
+    text-decoration: none;
+    text-indent: -9000px;
+    z-index: 17;
+    position: absolute;
+    padding: 0;
+}
+
+.unit-rating li a:hover {
+    background: url("../dleimages/rating.png") 0 -17px;
+    z-index: 2;
+    left: 0;
+}
+
+.unit-rating a.r1-unit {
+    left: 0;
+}
+
+.unit-rating a.r1-unit:hover {
+    width:17px;
+}
+
+.unit-rating a.r2-unit {
+    left: 17px;
+}
+
+.unit-rating a.r2-unit:hover {
+    width: 34px;
+}
+
+.unit-rating a.r3-unit {
+    left: 34px;
+}
+
+.unit-rating a.r3-unit:hover {
+    width: 51px;
+}
+
+.unit-rating a.r4-unit {
+    left: 51px;
+}
+
+.unit-rating a.r4-unit:hover {
+    width: 68px;
+}
+
+.unit-rating a.r5-unit {
+    left: 68px;
+}
+
+.unit-rating a.r5-unit:hover {
+    width: 85px;
+}
+
+.unit-rating li.current-rating {
+    background: url("../dleimages/rating.png") 0 -34px;
+    position: absolute;
+    height: 17px;
+    display: block;
+    text-indent: -9000px;
+    z-index: 1;
+}
+
+/*---BB коды---*/
+ /* различие bbcodes и bbcodes_poll исключительно в длине кнопки */
+/* класс bbcodes используем в списке персональных сообщений (pm.tpl) и по умолчанию в модуле редактора сообщений*/
+.bbcodes, .bbcodes_poll {
+    border-radius: 4px;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #999;
+    padding: 6px;
+    margin-bottom: 2px !important;
+    cursor: pointer;
+}
+
+.bbcodes:hover, .bbcodes_poll:hover {
+    background-position: 0 10px;
+}
+
+.bbcodes_poll {
+    width: 100px;
+}
+
+select[name=mass-action]{height: 25px;}
+/*---BB Редактор---*/
+
+.bb-pane { height: 1%; overflow: hidden; border: 1px solid #BBB; background-image: url("../bbcodes/bg.gif"); }
+.bb-btn, .bb-sep { height: 25px; float: left; display: block; overflow: hidden; text-indent: -9999px; white-space: nowrap; }
+.bb-sel { float: left; padding: 4px 2px 0 2px; }
+.bb-sel select { font-size: 11px; }
+.bb-sep { width: 5px; background-image: url("../bbcodes/brkspace.gif"); }
+.bb-btn { cursor: pointer; width: 23px; }
+
+#b_font { width: 118px;}
+#b_size { width: 65px;}
+#b_font select { padding: 0px;}
+#b_size select { padding: 0px;}
+#b_b { background-image: url("../bbcodes/b.gif"); }
+#b_i { background-image: url("../bbcodes/i.gif"); }
+#b_u { background-image: url("../bbcodes/u.gif"); }
+#b_s { background-image: url("../bbcodes/s.gif"); }
+#b_img { background-image: url("../bbcodes/image.gif"); }
+#b_up { background-image: url("../bbcodes/upload.gif"); }
+#b_emo { background-image: url("../bbcodes/emo.gif"); }
+#b_url { background-image: url("../bbcodes/link.gif"); }
+#b_leech { background-image: url("../bbcodes/leech.gif"); }
+#b_mail { background-image: url("../bbcodes/email.gif"); }
+#b_video { background-image: url("../bbcodes/mp.gif"); }
+#b_audio { background-image: url("../bbcodes/mp3.gif"); }
+#b_hide { background-image: url("../bbcodes/hide.gif"); }
+#b_quote { background-image: url("../bbcodes/quote.gif"); }
+#b_code { background-image: url("../bbcodes/code.gif"); }
+#b_left { background-image: url("../bbcodes/l.gif"); }
+#b_center { background-image: url("../bbcodes/c.gif"); }
+#b_right { background-image: url("../bbcodes/r.gif"); }
+#b_color { background-image: url("../bbcodes/color.gif"); }
+#b_spoiler { background-image: url("../bbcodes/spoiler.gif"); }
+#b_fla { background-image: url("../bbcodes/flash.gif"); }
+#b_yt { background-image: url("../bbcodes/youtube.gif"); }
+#b_tf { background-image: url("../bbcodes/typograf.gif"); }
+#b_list { background-image: url("../bbcodes/list.gif"); }
+#b_ol { background-image: url("../bbcodes/ol.gif"); }
+#b_tnl { background-image: url("../bbcodes/translit.gif"); }
+#b_br { background-image: url("../bbcodes/pbreak.gif"); }
+#b_pl { background-image: url("../bbcodes/page.gif"); }
+
+.bb-editor textarea { 
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    padding: 2px; border: 1px solid #bcc0c2; width: 100%; background: #fff url("../images/fields.png") repeat-x;
+}
+.editorcomm .bb-editor { width: 465px;}
+.editorcomm .bb-editor textarea { height: 156px; }
+
+.clr {
+    clear: both;
+}
+
+/*---Дополнительные поля---*/
+.xfields textarea, .xprofile textarea {
+    height: 186px;
+    margin: 0px 1px 0px 0px;
+    padding: 0px;
+}
+
+.xfields input, .xprofile input {
+    width: 250px;
+    height: 14px;
+    padding: 2px;
+}
+
+.xfields_table td {
+    vertical-align: top;
+}
+
+/*---Персональные сообщения---*/
+ .pm_head {
+    font-weight: bold;
+}
+
+/*---Выпадающее меню кнопки редактировать---*/
+#dropmenudiv {
+    border: 1px solid #cbdfe8;
+    background-color: #fbfdfe;
+    font-size: 11px;
+    line-height: 20px;
+    margin: 2px 0;
+    padding: 5px;
+    opacity:0.9;
+    -moz-opacity:0.9;
+    filter:alpha(opacity=90);
+}
+
+#dropmenudiv a {
+    display: block;
+    text-indent: 3px;
+    text-decoration: none;
+    color: #3f4b51;
+    padding: 1px 0;
+    width: 100%;
+}
+
+#dropmenudiv a:hover {
+    color: #2d8edd;
+}
+
+/*---Ссылка на скачивание прикрепленного файла---*/
+.attachment {
+    color: #808080;
+}
+
+/*---Рамка расширенной формы поиска по сайту---*/
+fieldset {
+    border: 1px solid #bfced6;
+    padding: 5px;
+    text-align: left;
+}
+
+/*---показ оригинальной картинки загруженной на сайт из уменьшенной копии---*/
+.highslide-wrapper, .highslide-outline {
+    background: #FFFFFF;
+}
+
+.highslide-image {
+    border: 2px solid #FFFFFF;
+}
+
+.highslide-active-anchor {
+    visibility: hidden;
+}
+
+ .highslide-active-anchor img {
+    visibility: hidden;
+}
+
+.highslide-dimming {
+    background-color: black;
+}
+
+.highslide-html {
+    background-color: white;
+}
+
+.highslide-loading {
+    display: block;
+    color: white;
+    font-size: 9px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 3px;
+    border: 1px solid white;
+    background-color: black;
+}
+
+a.highslide-full-expand {
+    background: url("../dleimages/fullexpand.gif") no-repeat;
+    display: block;
+    margin: 0 10px 10px 0;
+    width: 34px;
+    height: 34px;
+}
+
+.highslide-display-block {
+    display: block;
+}
+
+.highslide-display-none {
+    display: none;
+}
+
+.highslide-caption {
+    display: none;
+    padding: 5px;
+    background: white;
+}
+
+.highslide-controls {
+    width: 195px;
+    height: 40px;
+    background: url("../../../engine/classes/highslide/graphics/controlbar-black-border.gif") no-repeat 0 -90px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.highslide-controls ul {
+    position: relative;
+    left: 15px;
+    height: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: url("../../../engine/classes/highslide/graphics/controlbar-black-border.gif") no-repeat 100% -90px;
+}
+
+.highslide-controls li {
+    float: left;
+    padding: 5px 0;
+}
+
+.highslide-controls a {
+    background: url("../../../engine/classes/highslide/graphics/controlbar-black-border.gif");
+    display: block;
+    float: left;
+    height: 30px;
+    width: 30px;
+    outline: none;
+}
+
+.highslide-controls a.disabled {
+    cursor: default;
+}
+
+.highslide-controls a span {
+    display: none;
+}
+
+ /*---The CSS sprites for the controlbar---*/
+.highslide-controls .highslide-previous a {
+    background-position: 0 0;
+}
+
+.highslide-controls .highslide-previous a:hover {
+    background-position: 0 -30px;
+}
+
+.highslide-controls .highslide-previous a.disabled {
+    background-position: 0 -60px !important;
+}
+
+.highslide-controls .highslide-play a {
+    background-position: -30px 0;
+}
+
+.highslide-controls .highslide-play a:hover {
+    background-position: -30px -30px;
+}
+
+.highslide-controls .highslide-play a.disabled {
+    background-position: -30px -60px !important;
+}
+
+.highslide-controls .highslide-pause a {
+    background-position: -60px 0;
+}
+
+.highslide-controls .highslide-pause a:hover {
+    background-position: -60px -30px;
+}
+
+.highslide-controls .highslide-next a {
+    background-position: -90px 0;
+}
+
+.highslide-controls .highslide-next a:hover {
+    background-position: -90px -30px;
+}
+
+.highslide-controls .highslide-next a.disabled {
+    background-position: -90px -60px !important;
+}
+
+.highslide-controls .highslide-move a {
+    background-position: -120px 0;
+}
+
+.highslide-controls .highslide-move a:hover {
+    background-position: -120px -30px;
+}
+
+.highslide-controls .highslide-full-expand a {
+    background-position: -150px 0;
+}
+
+.highslide-controls .highslide-full-expand a:hover {
+    background-position: -150px -30px;
+}
+
+.highslide-controls .highslide-full-expand a.disabled {
+    background-position: -150px -60px !important;
+}
+
+.highslide-controls .highslide-close a {
+    background-position: -180px 0;
+}
+
+.highslide-controls .highslide-close a:hover {
+    background-position: -180px -30px;
+}
+
+/*---Облако тегов---*/
+.side_tags{line-height: 30px;text-align: center;}
+.side_tags a{
+    color: #fff;
+    padding: 5px;
+    border-radius: 2px;
+}
+.side_tags a:hover{color: #fff;}
+.clouds_xsmall {
+    background: #1abc9c;
+    font-size: 12px;
+}
+
+.clouds_small {
+    background: #27ae60;
+    font-size: 12px;
+}
+
+.clouds_medium {
+    background: #f1c40f;
+    font-size: 12px;
+}
+
+.clouds_large {
+    background: #e67e22;
+    font-size: 12px;
+}
+
+.clouds_xlarge {
+    background: #e74c3c;
+    font-size: 12px;
+}
+/*---Быстрый поиск на сайте---*/
+.src-sug{
+    position: relative;
+    z-index: 9999;
+}
+
+#searchsuggestions {
+    z-index: -100;
+    border: 1px solid #919191;
+    width:300px;
+    background-color: #fff;
+    font-size: 0.9em;
+	position: inherit ;
+}
+
+#searchsuggestions a, #searchsuggestions span.notfound {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+#searchsuggestions a:hover {
+    background-color: #f0f2f4;
+}
+
+#searchsuggestions span.searchheading {
+    display: block;
+    font-weight: bold;
+    color: #db143d;
+}
+
+#searchsuggestions span.seperator {
+    display: block;
+    background-color: #db143d;
+}
+
+#searchsuggestions span.seperator a {
+    padding: 5px 10px;
+    text-align: right;
+    background-color: transparent;
+    color: #fff;
+}
+
+#searchsuggestions span.notfound {
+    padding: 10px;
+    display: block;
+}
+
+#searchsuggestions .break {
+    display: none;
+}
+
+/*---Диалоговые и всплывающие окна jQuery UI---*/
+
+.ui-helper-hidden { display: none; }
+.ui-helper-hidden-accessible { position: absolute; left: -99999999px; }
+.ui-helper-reset { margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none; }
+
+.ui-helper-clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.ui-helper-clearfix {
+    display: inline-block;
+}
+
+* html .ui-helper-clearfix {
+    height: 1%;
+}
+
+.ui-helper-clearfix {
+    display: block;
+}
+
+.ui-icon {
+    background-repeat: no-repeat;
+    display: block;
+    overflow: hidden;
+    text-indent: -99999px;
+}
+
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button, .ui-widget {
+    font-size: 11px;
+	font-family: Verdana;
+}
+
+
+.ui-widget-content {
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #999;
+    border-radius: 4px;
+}
+
+.ui-widget-header {
+    margin: -10px;
+    background: #304559;
+    color: #fff;
+    font-family: "PT Sans";
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.ui-widget-header a {
+    color: #fff;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default {
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #999;
+}
+
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+    color: #2e6e9e;
+    text-decoration: none;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus {
+
+}
+
+.ui-state-hover a, .ui-state-hover a:hover {
+    color: #1d5987;
+    text-decoration: none;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active {
+    background: #d0e5f5;
+    border: 1px solid #a7a7a7;
+    color: #e17009;
+    font-weight: bold;
+}
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    color: #e17009;
+    text-decoration: none;
+}
+
+.ui-state-error {
+    background: #fef1ec;
+    border: 1px solid #dedede;
+    color: #cd0a0a;
+}
+
+.ui-widget-header .ui-icon {
+
+}
+
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {
+
+}
+
+.ui-icon-close {
+    background-position: -80px -128px;
+}
+
+.ui-icon-closethick {
+    background: url("../dleimages/close.png") no-repeat;
+}
+
+.ui-button .ui-button-text {
+    display: block;
+    line-height: 1.4em;
+}
+
+.ui-button-text-only .ui-button-text {
+    padding: .4em .8em;
+}
+
+input.ui-button {
+    padding: .4em 1em;
+}
+
+.ui-button-set {
+    margin-right: 7px;
+}
+
+.ui-button-set .ui-button {
+    margin-left: 0;
+    margin-right: -.3em;
+}
+
+button.ui-button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+.ui-dialog {
+    overflow: hidden;
+    padding: 10px;
+    position: absolute;
+    width: 300px;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    padding: .5em 1em .3em;
+    position: relative;
+}
+
+.ui-dialog .ui-dialog-title {
+    float: left;
+    margin: .1em 16px .2em 0;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+    height: 10px;
+    margin: -10px 0 0 0;
+    padding: 1px;
+    position: absolute;
+    right: .3em;
+    top: 50%;
+    width: 20px;
+}
+
+.ui-dialog .ui-dialog-titlebar-close span {
+    display: block;
+    margin: 1px;
+}
+
+.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus {
+
+}
+
+.ui-dialog .ui-dialog-content {
+    width: 100% !important;
+    background: none;
+    border: 0;
+    padding: 15px 0;
+    position: relative;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+    background-image: none;
+    border-width: 0;
+    margin: 0;
+    padding: 5px 0;
+    text-align: left;
+    clear: both;
+}
+
+.ui-dialog .ui-dialog-buttonpane button {
+    float: right;
+    color: #333333;
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 0;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+         -o-user-select: none;
+            user-select: none;
+            margin: 0 5px;
+}
+
+.ui-dialog .ui-resizable-se {
+    bottom: 3px;
+    height: 14px;
+    right: 3px;
+    width: 14px;
+}
+
+.ui-draggable .ui-dialog-titlebar {
+    cursor: move;
+}
+
+/* ==================== Автозаполнение облака тегов */
+.ui-autocomplete {
+    position: absolute;
+    cursor: default;
+}
+
+* html .ui-autocomplete {
+    width:1px;
+}
+
+ /* without this, the menu expands to 100% in IE6 */
+.ui-menu {
+    list-style:none;
+    padding: 2px;
+    margin: 0;
+    display:block;
+    float: left;
+}
+
+.ui-menu .ui-menu {
+    margin-top: -3px;
+}
+
+.ui-menu .ui-menu-item {
+    margin:0;
+    padding: 0;
+    zoom: 1;
+    float: left;
+    clear: left;
+    width: 100%;
+}
+
+.ui-menu .ui-menu-item a {
+    text-decoration:none;
+    display:block;
+    padding:.2em .4em;
+    line-height:1.5;
+    zoom:1;
+}
+
+.ui-menu .ui-menu-item a.ui-state-hover,.ui-menu .ui-menu-item a.ui-state-active {
+    font-weight: normal;
+    margin: -1px;
+}
+
+/*---подсветка текста в теге [code]---*/
+pre code {
+    display: block;
+    padding: 0.5em;
+    background: #f9fafa;
+    border: 1px solid #dce7e7;
+    overflow:auto;
+    white-space: pre;
+}
+
+pre .comment,pre .template_comment,pre .diff .header,pre .doctype,pre .lisp .string,pre .javadoc {
+    color: #93a1a1;
+    font-style: italic;
+}
+
+pre .keyword,pre .css .rule .keyword,pre .winutils,pre .javascript .title,pre .method,pre .addition,pre .css .tag,pre .lisp .title {
+    color: #859900;
+}
+
+pre .number,pre .command,pre .string,pre .tag .value,pre .phpdoc,pre .tex .formula,pre .regexp,pre .hexcolor {
+    color: #2aa198;
+}
+
+pre .title,pre .localvars,pre .function .title,pre .chunk,pre .decorator,pre .builtin,pre .built_in,pre .lisp .title,pre .identifier,pre .title .keymethods,pre .id {
+    color: #268bd2;
+}
+
+pre .tag .title,pre .rules .property,pre .django .tag .keyword {
+    font-weight: bold;
+}
+
+pre .attribute,pre .variable,pre .instancevar,pre .lisp .body,pre .smalltalk .number,pre .constant,pre .class .title,pre .parent,pre .haskell .label {
+    color: #b58900;
+}
+
+pre .preprocessor,pre .pi,pre .shebang,pre .symbol,pre .diff .change,pre .special,pre .keymethods,pre .attr_selector,pre .important,pre .subst,pre .cdata {
+    color: #cb4b16;
+}
+
+pre .deletion {
+    color: #dc322f;
+}
+
+pre .tex .formula {
+    background: #eee8d5;
+}
+
+/*---прогресс бар заполненности персональных сообщений---*/
+.pm_progress_bar {
+    border: 1px solid #d8d8d8;
+    padding: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pm_progress_bar span {
+    background: #000000;
+    font-size: 0em;
+    text-indent: -2000em;
+    height: 10px;
+    display: block;
+    overflow: hidden;
+}
+
+/*---Вывод результатов голосования на сайте---*/
+.vote-block{color: #fff;}
+.vote-block span{font-family: "PT Sans";color: #fff;font-size: 18px;}
+.vote{color: #ddd;font-family: "PT Sans";font-size: 14px;}
+
+.voteprogress {
+  overflow: hidden;
+  height: 20px;
+  margin-bottom: 5px;
+  background-color: #f7f7f7;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.voteprogress span {
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  height: 20px;
+  display: block;
+  overflow: hidden;
+  background: #0e90d2;
+}
+
+.voteprogress .vote2 {
+  background-color: #dd514c;
+}
+
+.voteprogress .vote3 {
+  background-color: #5eb95e;
+}
+
+.voteprogress .vote4 {
+  background-color: #4bb1cf;
+}
+
+.voteprogress .vote5 {
+  background-color: #faa732;
+}
+
+/*---Вывод результатов опросов в новостях---*/
+.pollprogress {
+  overflow: hidden;
+  height: 20px;
+  margin-bottom: 5px;
+  background-color: #f7f7f7;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.pollprogress span {
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  height: 20px;
+  display: block;
+  overflow: hidden;
+  background: #0e90d2;
+}
+
+.pollprogress .poll2 {
+  background-color: #dd514c;
+}
+
+.pollprogress .poll3 {
+  background-color: #5eb95e;
+ }
+
+.pollprogress .poll4 {
+  background-color: #4bb1cf;
+  }
+
+.pollprogress .poll5 {
+  background-color: #faa732;
+  }
+
+/*---Выделение текста и всплывающее окно (поделиться ссылкой)---*/
+#marker-bar,
+#txtselect_marker {
+	display: block;
+	visibility: hidden;
+    position: absolute;
+    z-index: 1200;
+    opacity: 0;
+    -webkit-transition: opacity .4s, visibility .1s linear .4s;
+    -moz-transition: opacity .4s, visibility .1s linear .4s;
+    -o-transition: opacity .4s, visibility .1s linear .4s;
+    transition: opacity .4s, visibility .1s linear .4s;
+}
+#txtselect_marker {
+    cursor: pointer;
+    background:url(../dleimages/marker.png) -0px -0px no-repeat;
+}
+
+#txtselect_marker:hover {
+        background-position: -0px -32px;
+}
+
+#marker-bar{
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background: #fff;
+    padding: 5px 10px;
+    cursor: default;
+    box-shadow: 0px 0px 4px #ccc;
+}
+
+#marker-bar.show {
+	-webkit-transition: opacity .4s, visibility 0s;
+	-moz-transition: opacity .4s, visibility 0s;
+	-o-transition: opacity .4s, visibility 0s;
+	transition: opacity .4s, visibility 0s;
+	opacity: 1;
+	visibility: visible;
+}
+
+#txtselect_marker.show {
+        /* XXX make a common css fadeIn/fadeOut classes */
+	visibility: visible;
+    width: 32px;
+    height: 32px;
+	-webkit-transition: opacity .4s, visibility 0s;
+	-moz-transition: opacity .4s, visibility 0s;
+	-o-transition: opacity .4s, visibility 0s;
+	transition: opacity .4s, visibility 0s;
+	opacity: 1;
+}
+
+#marker-bar .masha-social,
+#marker-bar .masha-marker{
+	cursor: pointer;
+	display: block;
+	margin: 0 5px;
+	float: left;
+}
+
+#marker-bar .masha-marker{
+	line-height: 1em;
+	color: #aaa;
+	border-bottom: 1px dotted #aaa;
+	margin-right: 10px;
+}
+
+#marker-bar .masha-marker:hover {
+	color: #ea3e26;
+	border-color: #ea3e26;
+}
+
+.user_selection, .user_selection_true {
+	background: #c4f47d;
+	padding: 2px 0;
+}
+.user_selection a.txtsel_close, .user_selection_true a.txtsel_close {
+	display:none;
+}
+.user_selection .closewrap, .user_selection_true .closewrap {
+	position: relative;
+}
+.user_selection.hover a.txtsel_close, .user_selection_true.hover a.txtsel_close {
+	display: inline-block;
+	position: absolute;
+	top: -7px;
+	left: -5px;
+	width: 33px;
+	height: 33px;
+	background: url(../dleimages/closemarker.png) -0px -0px no-repeat;
+}
+
+.user_selection.hover a.txtsel_close:hover, .user_selection_true.hover a.txtsel_close:hover {
+	background-position: -0px -33px;
+}
+
+
+#share-popup {
+	background: #fff;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	position: absolute;
+	width: 414px;
+	display:none;
+	z-index: 100;
+	padding: 10px 0;
+	opacity: 0;
+	-webkit-transition: opacity .4s, visibility .1s linear .4s;
+	-moz-transition: opacity .4s, visibility .1s linear .4s;
+	-o-transition: opacity .4s, visibility .1s linear .4s;
+	transition: opacity .4s, visibility .1s linear .4s;
+}
+
+#share-popup.show {
+	display:block;
+	opacity: 1;
+	-webkit-transition: opacity .4s, visibility 0s;
+	-moz-transition: opacity .4s, visibility 0s;
+	-o-transition: opacity .4s, visibility 0s;
+	transition: opacity .4s, visibility 0s;
+	opacity: 1;
+}
+
+#share-popup .social {
+	padding: 0 0 10px 17px;
+	height: 40px;
+}
+
+#share-popup .social p {
+	padding-bottom: 10px;
+	margin: 0;
+	font-weight: bold;
+}
+
+#share-popup .social ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#share-popup .social ul li {
+	float: left;
+	margin-right: 20px;
+	padding-top: 2px;
+	position: relative;
+}
+
+#share-popup .social ul a {
+	text-decoration: none;
+	font-size: 11px;
+	display: inline-block;
+	color: #aaa;
+	padding-left: 25px;
+}
+
+#share-popup .social ul a:hover {
+	text-decoration: underline;
+	color: #ea3e26;
+}
+
+#share-popup .social a span{
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	background: url(../dleimages/social-icons.png) 20px 20px no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#share-popup .social .tw span{
+	background-position: 0 -20px;
+}
+
+#share-popup .social .tw:hover span{
+	background-position: 0 0;
+}
+
+#share-popup .social .fb span{
+	background-position: -20px -20px;
+}
+
+#share-popup .social .fb:hover span {
+	background-position: -20px 0;
+}
+
+#share-popup .social .vk span{
+	background-position: -40px -20px;
+}
+
+#share-popup .social .vk:hover span {
+	background-position: -40px 0;
+}
+
+#share-popup .social .gp span{
+	background-position: -60px -20px;
+}
+
+#share-popup .social .gp:hover span {
+	background-position: -60px 0;
+}
+
+#share-popup .link {
+	clear: both;
+	border-top: 1px solid #d9d9d9;
+	padding: 10px 5px 0 10px;
+	line-height: 1.2;
+	overflow: hidden;
+	margin: 0 7px;
+}
+
+#share-popup .link p {
+	font-weight: bold;
+	padding: 0 0 3px 0;
+	margin: 0;
+}
+
+#share-popup .link span {
+	color: #999;
+	font-size: 10px;
+	display: block;
+	padding-top: 3px;
+}
+
+#share-popup .link a {
+	display: block;
+}
+
+#dle-speedbar{
+    color: #AFAFAF;
+    text-transform: uppercase;
+    font-family: "PT Sans";
+    font-size: 12px;
+}
+
+.archiv{text-align: center;}
+.archives{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "PT Sans";
+}
+.archives:hover{color: #fff;}
+.archives b{font-weight: normal;}

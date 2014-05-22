@@ -1,0 +1,179 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+/* ---------------------------------------------------------------------- */
+/*	Version 1200px
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 1200px) {
+  .menu-check-list .submenu .content {
+    height: 300px;
+  }
+  .gallery.gallery-posts .gallery-item {
+    height: 367px;
+    width: 290px;
+  }
+  .gallery.gallery-posts.blog .gallery-item {
+    height: 268px;
+    width: 212px;
+  }
+  .gallery.gallery-posts.blog .gallery-item p {
+    line-height: 1.3em;
+    font-size: 0.9em;
+  }
+  .gallery.gallery-products .gallery-item {
+    height: 346px;
+    width: 290px;
+  }
+  .marquee .marquee-content .countdown ul li {
+    width: 100px;
+  }
+  .marquee .marquee-content .countdown .btn {
+    margin: 15px 5px;
+  }
+  .flickr-feed .item-thumbnail {
+    width: 58px;
+  }
+  .flickr-feed .item-thumbnail:hover .icons {
+    top: 28%;
+  }
+  .list-scroll {
+    max-height: 511px;
+  }
+  .list-scroll.songs {
+    max-height: 281px;
+  }
+  .grid .grid-item {
+    width: 210px;
+    font-size: 0.8em;
+  }
+  .carousel-product .carousel-indicators li {
+    width: 94px;
+  }
+}
+/* ---------------------------------------------------------------------- */
+/*	Version 992px
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 992px) {
+  .menu-check-list {
+    margin: 19px 0px;
+    width: 400px;
+  }
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+  .slider #carousel-head .slider-grid {
+    width: 740px;
+    height: 300px;
+  }
+  .slider #carousel-head .slider-grid .slider-grid-item {
+    height: 151px;
+    width: 185px;
+  }
+  .slider #carousel-head .slider-grid .slider-grid-item.highlight .item-content {
+    padding: 10px;
+  }
+  .recent-posts {
+    margin: 40px 0;
+  }
+  footer .bottom-foot {
+    text-align: center;
+  }
+  footer .bottom-foot .right {
+    text-align: center;
+  }
+  .form-send .form-group {
+    width: 100%;
+  }
+  .fourzerofour .four,
+  .fourzerofour .zero {
+    font-size: 9em;
+  }
+}
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 768px
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 768px) {
+  .slider,
+  .menu-check-list,
+  .marquee {
+    display: none;
+  }
+  .navbar-nav {
+    text-align: left;
+  }
+  .navbar-nav li {
+    display: block;
+  }
+  .navbar-nav li a {
+    line-height: 50px;
+  }
+  .dropdown ul li a {
+    margin: 0;
+  }
+  .top-icons,
+  .date-time {
+    text-align: center;
+  }
+  .list .list-item {
+    padding: 15px;
+  }
+  .list .list-item .item-thumbnail {
+    width: 100%;
+    position: relative;
+  }
+  .list.blog .list-item {
+    padding: 10px 10px 60px 10px;
+  }
+  .list.blog .list-item .item-thumbnail {
+    width: 100%;
+    position: relative;
+  }
+  .form-products-single .form-group {
+    text-align: left;
+  }
+  .form-products-single .form-group .form-control {
+    width: 100%;
+  }
+  .form-products-single small {
+    display: block;
+  }
+  .checkout .tab-content .tab-pane {
+    padding: 20px;
+  }
+  .checkout .tab-content .tab-pane .items li {
+    padding: 10px;
+  }
+  .checkout .tab-content .tab-pane .items li .item-thumbnail {
+    float: none;
+    margin: 10px 0;
+    width: 100%;
+  }
+  .checkout .tab-content .tab-pane .items li .right {
+    float: none;
+  }
+  .checkout .tab-content .tab-pane .items li .right .close {
+    float: none;
+  }
+  .checkout .nav-tabs li {
+    width: 100%;
+  }
+  .checkout .nav-tabs li div {
+    display: none;
+  }
+}
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 600px
+/* ---------------------------------------------------------------------- *
+
+@media handheld, only screen and (max-width: 600px) 
+
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 320px
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 400px) {
+  .bannercontainer {
+    display: none;
+  }
+}

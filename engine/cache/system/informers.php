@@ -1,0 +1,1 @@
+a:1:{i:1;a:11:{s:2:"id";s:1:"1";s:3:"tag";s:3:"dle";s:5:"descr";s:17:"Новости с Яндекса";s:8:"category";s:1:"0";s:3:"url";s:31:"http://news.yandex.ru/index.rss";s:8:"template";s:8:"informer";s:8:"news_max";s:1:"3";s:4:"tmax";s:1:"0";s:4:"dmax";s:3:"200";s:7:"approve";s:1:"1";s:15:"rss_date_format";s:9:"j F Y H:i";}}

@@ -1,0 +1,1 @@
+<div style="clear:both" class="pagenavi"><div class="navigation">{pages}</div></div>
